@@ -32,7 +32,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.blade.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="login">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -71,7 +71,7 @@
                         <a href="{{ route('kategori.index') }}" class="collapse-item" href="cards.html">Kategori</a>
                         <a href="{{ route('barangmasuk.index') }}" class="collapse-item" href="cards.html">Barang Masuk</a>
                         <a href="{{ route('barangkeluar.index') }}" class="collapse-item" href="cards.html">Barang Keluar</a>
-                       
+
                     </div>
                 </div>
             </li>
@@ -224,7 +224,7 @@
                         <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                         Activity Log
                     </a>
-                    
+
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                         <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
