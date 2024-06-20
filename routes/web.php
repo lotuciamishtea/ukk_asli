@@ -7,7 +7,7 @@ use App\Http\Controllers\MasukController;
 use App\Http\Controllers\KeluarController;
 
 Route::get('/', function () {
-    return view('/login');
+    return view('/dashbiard');
 });
 Route::get('/dashboard', function () {
     return view('dashboard');
